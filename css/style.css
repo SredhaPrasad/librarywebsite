@@ -1,0 +1,36 @@
+
+body {
+    background-image: url('/images/img1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.navbar {
+    background-color: rgba(10, 1, 1, 0.932);
+    
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    
+}
+.container{
+    color: rgb(233, 228, 223);
+} 
+.row {
+    padding: 50px;
+}
+.navbar-nav{
+    padding-left: 80%;
+}
+img:hover{
+    transform: scale(0.9);
+    transition: all .5 ease-in-out;
+    aspect-ratio: 1;
+}
+body.book-page {
+    background-image: url('../images/img6.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    background-attachment: fixed; /* Make the background fixed during scroll */
+}
